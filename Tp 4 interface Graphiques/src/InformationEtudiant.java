@@ -69,7 +69,7 @@ public class InformationEtudiant extends Frame implements ActionListener {
         add(passwordField);
         add(genreLabel);
         add(hommeCheckbox);
-        add(new Label()); // For layout
+        add(new Label());
         add(femmeCheckbox);
         add(paysLabel);
         add(paysChoice);
@@ -102,8 +102,8 @@ public class InformationEtudiant extends Frame implements ActionListener {
                 writer.write("Prénom: " + prenomField.getText() + "\n");
                 writer.write("Date de naissance: " + dateNaissanceField.getText() + "\n");
                 writer.write("Gmail: " + gmailField.getText() + "\n");
-                // Ajouter plus d'informations à écrire dans le fichier au besoin
-                writer.write("\n"); // Séparation des entrées
+                
+                writer.write("\n\n\n"); 
                 writer.close();
                 System.out.println("Informations enregistrées avec succès !");
             } catch (IOException ex) {
