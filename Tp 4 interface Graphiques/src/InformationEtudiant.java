@@ -88,7 +88,7 @@ public class InformationEtudiant extends Frame implements ActionListener {
             }
         });
 
-        setTitle("Enregistrement des informations des étudiants en AWT");
+        setTitle("Enregistrement des informations des étudiants");
         setSize(400, 400);
         setVisible(true);
     }
