@@ -32,8 +32,9 @@ public class InformationEtudiant extends Frame implements ActionListener {
         passwordField = new TextField(20);
 
         Label genreLabel = new Label("Genre:");
-        hommeCheckbox = new Checkbox("Homme");
-        femmeCheckbox = new Checkbox("Femme");
+        CheckboxGroup g = new CheckboxGroup();
+        hommeCheckbox = new Checkbox("Homme ", g ,true);
+        femmeCheckbox = new Checkbox("Femme", g ,false);
 
         Label paysLabel = new Label("Pays:");
         paysChoice = new Choice();
