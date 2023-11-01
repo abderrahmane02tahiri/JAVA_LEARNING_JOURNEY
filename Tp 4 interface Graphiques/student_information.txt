@@ -1,75 +1,12 @@
-Nom: tahiri
-Prénom: ABDERRAHMANE
-Date de naissance: 30/10/2002
-Gmail: abderrahmane.tahiri.02@gmail.com
+--> Nom: abderrahmane
+--> Prenom: tahiri
+--> Date de Naissance: 30/10/2002
+--> Gmail: abderrahmane.tahiri.02@gmail.com
 
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
+**************************************************************
+--> Nom: ibrahim
+--> Prenom: tahiri
+--> Date de Naissance: 30/11/2005
+--> Gmail: brahim@gmail.com
 
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
-Nom: leila
-Prénom: jaafar
-Date de naissance: 24/05/20902
-Gmail: leila.jaafar20@ump.ac.ma
-
-
-
+**************************************************************
