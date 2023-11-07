@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Principale {
     JFrame fe;
@@ -10,7 +12,6 @@ public class Principale {
         fe = new JFrame("Application");
         fe.setSize(800, 600);
         fe.setLayout(null);
-        fe.setVisible(true);
         fe.setIconImage(new ImageIcon("C://Users//PC//Pictures//Saved Pictures//3.jpg/").getImage());
 
 
@@ -22,7 +23,6 @@ public class Principale {
 
 
         menuBar = new JMenuBar();
-
 
         menu_Fichier = new JMenu("Fichier");
         menu_Aficher = new JMenu("Aficher");
@@ -42,7 +42,41 @@ public class Principale {
         menuBar.add(menu_Apropos);
 
         fe.setJMenuBar(menuBar);
+        fe.setVisible(true);
+// Gestionnaire d'événements pour le menu
+        iquitter.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                int confirmed = JOptionPane.showConfirmDialog(null, "Êtes-vous sûr de vouloir quitter ?", "Confirmation", JOptionPane.YES_NO_OPTION);
+                if (confirmed == JOptionPane.YES_OPTION) {
+                    fe.dispose();
+                }
+            }
+        });
 
+        iajouter.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                fe.getContentPane().removeAll();
+                fe.getContentPane().add(new AjouterEtudiant().getPanel());
+            }
+        });
+
+        iafficher.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                fe.getContentPane().removeAll();
+                fe.getContentPane().add(new AfficherEtudiant().getPanel());
+            }
+        });
+
+        iapropos.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Apropos.showDialog();
+            }
+        });
+
+        fe.setSize(400, 300);
+        fe.setVisible(true);
 
     }
-}
+
+    }
+
