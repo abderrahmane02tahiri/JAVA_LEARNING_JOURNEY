@@ -73,7 +73,7 @@ public class Principale {
             }
         });
 
-        fe.setSize(400, 300);
+        fe.setSize(700, 300);
         fe.setVisible(true);
 
     }

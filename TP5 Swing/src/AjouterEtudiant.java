@@ -91,7 +91,7 @@ public class AjouterEtudiant {
 
 
         panel.setLayout(new GridLayout(0, 2));
-        panel.setSize(400,300);
+        panel.setSize(700,300);
         panel.setVisible(true);
     }
 

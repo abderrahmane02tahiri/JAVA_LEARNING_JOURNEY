@@ -12,21 +12,69 @@ public class AfficherEtudiant {
 
         String[] TitreColomn = {"Nom", "Prénom", "Date de Naissance", "Email", "CNE", "Genre", "Pays", "Diplômes"};
         Object[][] data = {
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108724", "Homme", "MAROC", "Cycle d'ingenieur"},
+
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+
+
+
         };
+
 
         DefaultTableModel model = new DefaultTableModel(data, TitreColomn);
         etudiantTable = new JTable(model);
 
-        scrollPane = new JScrollPane(etudiantTable);
 
+        scrollPane = new JScrollPane(etudiantTable);
         panel.add(scrollPane);
         panel.setLayout(new BorderLayout());
-        panel.setSize(400,300);
-        panel.setVisible(true);
+        scrollPane.setSize(1000,333);
+        scrollPane.setVisible(true);
     }
 
-    public JPanel getPanel() {
-        return panel;
+    public JScrollPane getPanel() {
+        return scrollPane;
     }
 }
