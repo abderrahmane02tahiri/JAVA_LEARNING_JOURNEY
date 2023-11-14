@@ -55,15 +55,15 @@ public class Principale {
 
         iajouter.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                fe.getContentPane().removeAll();
-                fe.getContentPane().add(new AjouterEtudiant().getPanel());
+                //fe.getContentPane().removeAll();
+                fe.setContentPane(new AjouterEtudiant().getPanel());
             }
         });
 
         iafficher.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                fe.getContentPane().removeAll();
-                fe.getContentPane().add(new AfficherEtudiant().getPanel());
+                //fe.getContentPane().removeAll();
+                fe.setContentPane(new AfficherEtudiant().getPanel());
             }
         });
 
@@ -72,7 +72,6 @@ public class Principale {
                 Apropos.showDialog();
             }
         });
-
         fe.setSize(700, 300);
         fe.setVisible(true);
 
