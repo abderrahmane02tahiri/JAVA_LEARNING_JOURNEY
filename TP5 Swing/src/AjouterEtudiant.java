@@ -35,6 +35,7 @@ public class AjouterEtudiant {
         genreLabel = new JLabel("Genre");
         hommeRadioButton = new JRadioButton("Homme");
         femmeRadioButton = new JRadioButton("Femme");
+
         genreButtonGroup = new ButtonGroup();
         genreButtonGroup.add(hommeRadioButton);
         genreButtonGroup.add(femmeRadioButton);

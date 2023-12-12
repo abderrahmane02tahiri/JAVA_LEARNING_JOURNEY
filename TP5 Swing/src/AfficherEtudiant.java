@@ -30,33 +30,7 @@ public class AfficherEtudiant {
                 {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
                 {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
                 {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
-                {"TAHIRI", "Abderrahmane", "10/30/2002", "abderra.tahiri@gmail.com", "ID108", "Homme", "MAROC", "Cycle d'ingenieur"},
+
 
 
 
@@ -65,7 +39,6 @@ public class AfficherEtudiant {
 
         DefaultTableModel model = new DefaultTableModel(data, TitreColomn);
         etudiantTable = new JTable(model);
-
 
         scrollPane = new JScrollPane(etudiantTable);
         panel.add(scrollPane);
